@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+    display: flex;
+    margin: 5px;
+}
+.head > img{
+    position: relative;
+    width: 11%;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: -15px;
+    float: left;
+    margin-bottom: -14px;
+}
+
+.home-image{
+    background-image: url(assets/hoome.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98.5%;
+    height: 90vh;
+    margin-left: 10px;
+    border-radius: 20px;
+    position: relative;
+    filter: brightness(100%);
+}
+.home-image-text{
+    color: aliceblue;
+    position: relative;
+    width: 30%;
+    
+    top: 13em;
+    left: 3em;
+    z-index: 1;
+}
+.money{ 
+    width: 100%;
+    height: auto !important;
+}
+
+.play-button{
+    background-color: #e50914;
+    color: black;
+    border-radius: 6px;
+    font-size: 25px;
+    padding: 5px 20px 0px;
+    width: 70px;
+}
+.play-button > img{
+    margin-top: 0px;
+    padding-left: 5px;
+    width: 25px;
+    position: absolute;
+    filter:contrast(90%)
+}
+/* Netfflix Original */
+.original{
+    color:white;
+    padding-left: 0px;
+}
+
+.original h3{
+    margin-top: 15px;
+}
+.original .no-title{
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    line-height: 1px;
+    font-weight: 5px;
+    margin-bottom: 19px;
+    }
+.original .no{
+    margin-left: 0px;
+    display: flex;
+    overflow-y: hidden;
+    height: 55vh;
+    padding-top: 2px;
+    margin-bottom: -50px;
+    
+}
+
+.original .no > img{
+    width: 160px;
+    margin: 3px;
+    margin-left: 8px;
+    height: 280px;
+    border-radius: 10px;
+}
+.original .no > img:hover{
+    /* border-radius: 10px; */
+    transform: scale(1.1); 
+    filter: brightness(70%);
+    transition: 0.4s ease-in-out;
+    transition-delay:0.1s;
+}
+/* top-rated */
+.top-rated{
+    color:white;
+    padding-left: 0px;
+}
+
+.top-rated h3{
+    margin-top: 15px;
+}
+.top-rated .no-title{
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    line-height: 1px;
+    font-weight: 5px;
+    margin-bottom: 15px;
+    }
+.top-rated .no{
+    margin-left: 0px;
+    display: flex;
+    overflow-y: hidden;
+    height: 55vh;
+    padding-top: 2px;
+    margin-bottom: -50px;
+}
+
+.top-rated .no > img{
+    width: 160px;
+    margin: 3px;
+    margin-left: 8px;
+    height: 280px;
+    border-radius: 10px;
+}
+.top-rated .no > img:hover{
+    /* border-radius: 10px; */
+    transform: scale(1.1); 
+    filter: brightness(70%);
+    transition: 0.4s ease-in-out;
+    transition-delay:0.1s;
+}
+
+/* top-rated1 */
+.top-rated1{
+    color:white;
+    padding-left: 0px;
+}
+
+.top-rated1 h3{
+    margin-top: 5px;
+}
+.top-rated1 .no-title{
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    line-height: 1px;
+    font-weight: 5px;
+    margin-bottom: 19px;
+    }
+.top-rated1 .no{
+    margin-left: 0px;
+    display: flex;
+    overflow-y: hidden;
+    height: 32vh;
+    padding-top: 2px;
+}
+
+.top-rated1 .no > img{
+    width: 120px;
+    margin: 3px;
+    margin-left: 8px;
+    height: 180px;
+    border-radius: 10px;
+}
+.top-rated1 .no > img:hover{
+    /* border-radius: 10px; */
+    transform: scale(1.1); 
+    filter: brightness(70%);
+    transition: 0.4s ease-in-out;
+    transition-delay:0.1s;
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 12px;
+    background: transparent;
+}
